@@ -34,7 +34,7 @@ class TestTriangles(unittest.TestCase):
         self.assertEqual(classifyTriangle(2,3,4),'Scalene','2,3,4 should be scalene')
 
     def testNotATriangle(self): 
-        self.assertEqual(classifyTriangle(7,5,10),'NotATriangle','7,5,10 should be NotATriangle')
+        self.assertEqual(classifyTriangle(4,8,15),'NotATriangle','4,8,15 should be NotATriangle')
 
     def testInvalidInput(self): 
         self.assertEqual(classifyTriangle(200,201,199),'InvalidInput','200,201,199 should be InvalidInput')
